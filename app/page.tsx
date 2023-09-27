@@ -1,9 +1,12 @@
 
-export default function Page() {
+import ReactBigCalendar from "@/app/ReactBigCalendar";
+import TuiCalendar from "@/app/TuiCalendar";
+
+export default function page() {
 
     return (
-        <div>
-           hi hello bye
-        </div>
-    );
+        // <ReactBigCalendar/>
+        <TuiCalendar/>
+    )
+
 }
